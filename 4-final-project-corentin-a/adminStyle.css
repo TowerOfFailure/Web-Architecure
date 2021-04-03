@@ -1,0 +1,43 @@
+body{
+  background-color: #404040;
+  color: white;
+  text-align: center;
+}
+
+.AdditionOfGame{
+  background-color: #2525A0;
+  padding-top: 0.1em;
+  padding-bottom: 0.05em;
+  text-align:center;
+  align-items: center;
+}
+li{
+  display:inline;
+  padding-right: 0.5em;
+}
+#incorrect{
+  background-color:#A02525;
+  padding-top:0.5em;
+  padding-bottom:0.5em;
+  width:25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2{
+  text-align:center;
+}
+
+button{
+  width:10em;
+  height:5em;
+  border-radius: 50px
+}
+
+img{
+  width:50%;
+}
+
+.score{
+  color:white;
+}

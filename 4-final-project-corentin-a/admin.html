@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width">
+      <link rel="stylesheet" href="adminStyle.css">
+      <title>Quiz on Games</title>
+  </head>
+  <body>
+    <div class="AdditionOfGame">
+      <ul>
+        <li>
+          <label>Name of the game : </label>
+          <input type='text' id='nameNewGame'></input>
+        </li>
+        <li>
+          <label>Image of gameplay</label>
+          <input type='file' id='imageNewGame' accept="image/png, image/jpeg"></input>
+        </li>
+        <li>
+          <button onclick="AddGame()" id='AddingGame'>Add the game</button>
+        </li>
+      </ul>
+      <p id="incorrect">You must first fill in all the fields</p>
+    </div>
+    <h2>List of games : </h2>
+    <ul id="ListOfGames">
+    </ul>
+  </body>
+</html>
+<script src="admin.js" type = "text/javascript"></script>

@@ -1,0 +1,24 @@
+div .movie {
+  background-color: #101010;
+  border-color: #808080;
+  color: white;
+}
+div .actor {
+  background-color: #A0A0A0;
+  border-color: #101010;
+  color: black;
+}
+
+div .error{
+  color: red;
+  display: inline-block;
+}
+
+div .form{
+  color: white;
+  background-color: #4F00EF;
+}
+body{
+  background-color: #404040;
+  color: white;
+}
