@@ -1,6 +1,6 @@
 const express = require('express');
 const DATABASE_NAME="GamingGame";
-const MONGO_URL = `mongodb://localhost:27017`;
+const MONGO_URL = `mongodb+srv://admin:admin@cluster0.yuirx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 const MongoClient = require("mongodb").MongoClient;
 var bodyParser = require('body-parser');
 const JSON = require('JSON');
