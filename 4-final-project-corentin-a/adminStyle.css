@@ -23,7 +23,9 @@ li{
   margin-left: auto;
   margin-right: auto;
 }
-
+#navbar{
+  background-color: #E0E0E0;
+}
 h2{
   text-align:center;
 }
